@@ -15,3 +15,4 @@ LSM:Register("sound", "|cff00fe97Cinderbolt - Nolly|r", [[Interface\Addons\Share
 LSM:Register("sound", "|cff00fe97Spatial Compression - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\Spatial_Compression.ogg]])
 LSM:Register("sound", "|cff00fe97Tigers Lust - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\tigers_lust.ogg]])
 LSM:Register("sound", "|cff00fe97Spiteful on you - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\spiteful.ogg]])
+LSM:Register("sound", "|cff00fe97Absorb - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\absorb.ogg]])
