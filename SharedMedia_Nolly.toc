@@ -1,4 +1,4 @@
-## Interface: 100200
+## Interface: 100205
 ## Title: |cff0091ed<SharedMedia>|r |cffffa300 <Nolly>|r
 ## IconTexture: Interface\AddOns\SharedMedia_Nollychi\media\icons\nollychi.tga
 
