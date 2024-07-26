@@ -8,16 +8,8 @@ Discord (nollychi) or Twitter (@nollychii)!
 
 ## Installation
 
-### WowUp
+This addon is now available on Wago.io! [Click here to install via Wago.io](https://addons.wago.io/addons/sharedmedia-nolly)
 
-1. Download and install [WowUp](https://github.com/WowUp/WowUp/releases/latest)
-2. Under Get Addons, click "Install from URL" and input
-<https://github.com/lyledouglass/SharedMedia-Nolly>
+To install it manually, or via the Github link installer on the WoWUp installer, download the latest release from the [releases page](https://github.com/lyledouglass/sharedmedia-nolly/releases) and extract the contents to your `World of Warcraft\_retail_\Interface\AddOns` folder.
 
-### Manual
-
-1. Download the latest release from
-[here](https://github.com/lyledouglass/SharedMedia-Nolly/releases/latest)
-2. Extract the zip file
-3. Copy the `SharedMedia-Nolly` folder into your `World of
-Warcraft\_retail_\Interface\AddOns` folder
+To install via WoWUp, click the "Install from URL" button and paste the following URL: `https://github.com/lyledouglass/sharedmedia-nolly`
