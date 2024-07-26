@@ -1,0 +1,35 @@
+name: Set Version
+on:
+  push:
+    branches:
+      - main
+
+env:
+  GITHUB_TOKEN: ${{ secrets.WOW_PAT }}
+jobs:
+  get-version:
+    outputs:
+      bump: ${{ steps.version.outputs.bump }}
+      next: ${{ steps.version.outputs.next }}
+      current: ${{ steps.version.outputs.current }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.WOW_PAT }}
+
+      - name: Get next version
+        id: version
+        uses: ietf-tools/semver-action@v1.8.0
+        with:
+          token: ${{ secrets.WOW_PAT }}
+          branch: ${{ github.ref }}
+          noVersionBumpBehavior: 'current'
+
+      - name: Tag version
+        if: ${{ steps.version.outputs.bump != '' }}
+        shell: bash
+        run: git tag ${{ steps.version.outputs.next }} && git push --tags
