@@ -8,11 +8,12 @@ local koKR, ruRU, zhCN, zhTW, western = LSM.LOCALE_BIT_koKR, LSM.LOCALE_BIT_ruRU
 --   SOUND
 -- -----
 LSM:Register("sound", "|cff00fe97CDSoon - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\your_cd_soon.ogg]])
-LSM:Register("sound", "|cff00fe97Incorporeal - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\incorporeal.ogg]])
-LSM:Register("sound", "|cff00fe97Afflicted - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\afflicted.ogg]])
-LSM:Register("sound", "|cff00fe97Glacial Fusion - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\Glacial_Fusion.ogg]])
-LSM:Register("sound", "|cff00fe97Cinderbolt - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\Cinderbolt.ogg]])
-LSM:Register("sound", "|cff00fe97Spatial Compression - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\Spatial_Compression.ogg]])
 LSM:Register("sound", "|cff00fe97Tigers Lust - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\tigers_lust.ogg]])
-LSM:Register("sound", "|cff00fe97Spiteful on you - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\spiteful.ogg]])
 LSM:Register("sound", "|cff00fe97Absorb - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\absorb.ogg]])
+LSM:Register("sound", "|cff00fe97Collect Orbs - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\collect_orbs.ogg]])
+LSM:Register("sound", "|cff00fe97CC Mobs - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\cc_mobs.ogg]])
+LSM:Register("sound", "|cff00fe97Nuke Add - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\nuke_add.ogg]])
+LSM:Register("sound", "|cff00fe97Run Out - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\run_out.ogg]])
+LSM:Register("sound", "|cff00fe97Stack - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\stack.ogg]])
+LSM:Register("sound", "|cff00fe97Dispel - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\dispel.ogg]])
+LSM:Register("sound", "|cff00fe97Kick - Nolly|r", [[Interface\Addons\SharedMedia_Nolly\sound\kick.ogg]])
